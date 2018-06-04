@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" >
+        <title>desenvolvimento minha página com html 5</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+        <script language="javascript" type="text/javascript">
+        dayName= new Array ("domingo", "segunda-feira" , " terça-feira" , " quarta-feira" , "quinta-feira" , "sexta-feira", "sábado")
+        monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "desembro", )
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <header id="header">
+            <div class="header-um">
+                <img src="imagem.png"/>
+            </div>
+             <div class="header-dois">
+                 IFRS Erechim <br/>
+                 Primeira turma comcomitante
+            </div>
+             <div class="header-tres">
+                 <script language="javascipt" type="text/javascript">
+                     now = new Date
+                     document.write ("Hoje é" + dayName[now.getDay()]
+                                     +", <br/>" + now.getDate() + " de "
+                                     + monName[now.getMonth()] +" de "
+                                     + now.getFullYear() + "<br/>")
+                document.write("agora são " + now.getHours()
+                              + ":" + now.getMinutes()
+                                + ":" + now.getSeconds())
+                    
+                     
+                     
+                 </script>
+            </div>
+            <div>
+            
+	        
+        <div id="menu">
+            <ul>
+               <li><a href="#">Página Inicial</a></li>
+               <li><a href="#">Institucional</a></li>
+               <li><a href="#">Notícia</a></li>
+               <li><a href="#">contatos</a></li>
+                
+                
+                
+            </ul>
+            </div>
+              
+              
+              <div id="esquerda">
+                 <p>coloque o texto 1 aqui</p>
+                  
+                  
+              </div>
+               
+                <div id="direita">
+                 <p>coloque o texto 2 aqui</p>
+                  
+                  
+              </div>
+               
+               <div id="footer">
+                   <div class="footer-um">
+                       <img src="imagem.png" class="img-footer">
+                   </div>
+               
+                   <div class="footer-dois">
+                       <div id="footer-dois-menu">
+                         <ul>
+                           <li><a href="#">Página Inicial</a></li>
+                           <li><a href="#">Institucional</a></li>
+                           <li><a href="#">Notícia</a></li>
+                           <li><a href="#">contatos</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                  
+                          <div class="footer-tres">
+                          <p>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Câmpus Erechim
+                            Rua Domingos Zanella, 104 | Bairro Três Vendas | CEP: 99713-028 | Erechim/RS
+                            E-mail: comunicacao@erechim.ifrs.edu.br | Gabinete: gabinete@erechim.ifrs.edu.br | Telefone: (54) 3321-7500 | 
+                             Fax: (54) 3321-7525
+
+                          </p>
+                          </div>
+
+            </div></div>
+        
+        
+    </body>
+</html>
